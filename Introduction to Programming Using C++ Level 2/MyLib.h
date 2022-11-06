@@ -19,6 +19,20 @@ namespace ReadInputs
     }
 
 }
+
+namespace Format
+{
+    string ColumSperator(int i)
+    {
+        if (i < 10)
+        {
+            return "   ";
+        }
+        else
+            return "  ";
+    }
+
+}
 namespace MyMathLib
 {
     bool CheckIfPerfectNumber(int Number)
